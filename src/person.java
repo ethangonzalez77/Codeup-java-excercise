@@ -1,13 +1,64 @@
-public class person {
+public class Person {
+    
+    private String name;
+
+
+
+
+    public String getName(){
+
+//TODO: return the person's name
+
+
+    return this.name;
+
+    }
+
+    public void setName(String name){
+//TODO: change the name field to the passed value
+        this.name = name;
+
+
+
+    }
+    public void sayHello(){
+//TODO: print a message to the console using the person's name
+
+        System.out.println("Hello" + this.name);
+
+    }
+
 
     public static void main(String[] args) {
 
-        System.out.print("Code inside of curly braces should be indented "); // all on one line, no line break
-        System.out.print("with four spaces");// both of these are in on one line
-
-        System.out.println("the following is the same shit but in it's own line, it's own element.");//at the end of this sentence it will make a new line
-        System.out.println("Code inside of curly braces should be indented ");
-        System.out.println("with four spaces");
+//        Person person1 = new Person("John");
+//        Person person2 = new Person("John");
+//        System.out.println(person1.getName().equals(person2.getName()));
+//        System.out.println(person1 == person2);
+//
+//
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1 == person2);
+//
+//
+//
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
+//        person2.setName("Jane");
+//        System.out.println(person1.getName());
+//        System.out.println(person2.getName());
 
     }
+
+
+
+
+
+
+
+
+
 }
