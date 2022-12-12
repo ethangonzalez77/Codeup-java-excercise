@@ -2,26 +2,32 @@ package movies;
 
 public class Movie {
 
+    public static void main(String[]args){
+
+    }
+
     private String name;
     private String category;
 
-    public Movie (String name, String category) {
+    public Movie(){
+
+    }
+    public Movie(String name, String category){
         this.name = name;
         this.category = category;
     }
 
-    public String getName () {
-        return name;
+    public void setName(String name){
+        this.name = name;
+    }
+    public void setCategory(String category){
+        this.name = category;
     }
 
-    public void setName (String newName) {
-        this.name = newName;
+    public String getName(){
+        return this.name;
     }
-
-    public void getCategory(String newCategory) {
-        this.category = newCategory;
+    public String getCategory(){
+        return this.category;
     }
-
-
-
 }

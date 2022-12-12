@@ -63,26 +63,22 @@ public class MethodsExercises {
 
         public static void factorial () {
 
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("pick between 1-10");
+            int input = scanner.nextInt();
+            System.out.println("you choose " + input);
+            System.out.println("Do you want to continue? ");
+            String answer = scanner.next();
 
-//            System.out.println("You choose int: " + user);
-            System.out.println("Would you like to continue? ");
-
-
-            for (int i = 0; i < 10; i++) {
-
+            if (answer.equals("yes")) {
+                int sum = 1;
+                for (int i = 1; i <= input; i++) {
+                    sum *= i;
+                    System.out.println(sum);
+                }
 
             }
 
-
-
-
         }
 
-
-
-
-        /** Q4 Create an application that simulates dice rolling. */
-
-
-        /** Q5 Game Development 101 */
 }
